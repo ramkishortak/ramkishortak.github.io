@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Abhigyan Singh | ReCaptcha</title>
+	<title>Ram Kishor Tak | ReCaptcha</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
@@ -69,8 +69,8 @@
                     <img src="img/uploads/rs-photo-v2.jpg" alt="Robert Smith"/>
                 </div>
                 <div class="profile-info">
-                    <h2 class="profile-title">Abhigyan Singh</h2>
-                    <h3 class="profile-position">Full Stack Developer</h3>
+                    <h2 class="profile-title">Ram Kishor Tak</h2>
+                    <h3 class="profile-position">Big Data Engineer</h3>
                 </div>
             </aside><!-- .widget-profile -->
 
@@ -161,8 +161,8 @@
 						
 			<!-- START: PAGE CONTENT -->
 			<?php require_once __DIR__ . '/php/recaptcha/autoload.php';				
-				$siteKey = '6LfxPiYTAAAAAGDzd816Sp1AdiDrh7kMbW-hKtAh'; // visit https://www.google.com/recaptcha/admin to generate keys
-				$secret = '6LfxPiYTAAAAAKi3ZWp4htNJdoqHvJodiSlqJOMv';
+				$siteKey = '6LdrnzMUAAAAAMlftaeYsXd_slk1QNDf-VlMOTh_'; // visit https://www.google.com/recaptcha/admin to generate keys
+				$secret = '6LdrnzMUAAAAAHNbzeYjqJxByk0fuL7O88EcTptu';
 				$lang = 'en'; // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
 			?>
 			
