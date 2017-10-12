@@ -578,7 +578,7 @@ FIFO, FAIR, OOZIE.</p>
                             <div class="section-box contact-form">
                                 <h3>Feel free to contact me</h3>
             
-                                <form class="rsForm" action="recaptcha.php" method="post" data-captcha="true">
+                                <form class="rsForm" data-captcha="true">
                                     <div class="input-field">
                                         <label>Name</label>
                                         <input type="text" name="rsName" value="">
@@ -604,8 +604,10 @@ FIFO, FAIR, OOZIE.</p>
                                     </div>
             
                                     <span class="btn-outer btn-primary-outer ripple">
-                                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                                        <input class="rsFormSubmit btn btn-lg btn-primary" id="submitForm" type="submit" value="Send">
                                     </span>
+
+                                    <span style="display: none;color:steelblue;" id="submitDone">Submitted successfully.</span>
                                 </form>
                             </div>
                         </div>
@@ -681,5 +683,10 @@ FIFO, FAIR, OOZIE.</p>
     <script type="text/javascript" src="js/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/options.js"></script>
     <script type="text/javascript" src="js/site.min.js"></script>
+    <script type="text/javascript">
+        $('#submitForm').click(function () {
+            $('#submitDone').css('display','block');
+        })
+    </script>
 </body>
 </html>
